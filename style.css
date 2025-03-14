@@ -59,6 +59,9 @@ button{
     cursor: pointer;
     border-radius: 40px;
 }
+button:hover{
+    background: #ff1900;
+}
 ul li{
     list-style: none;
     font-size: 17px;
