@@ -59,8 +59,11 @@ button{
     cursor: pointer;
     border-radius: 40px;
 }
-button:hover{
-    background: #ff1900;
+button:hover {
+    background: linear-gradient(135deg, #ff7e5f, #ff5945);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
 ul li{
     list-style: none;
